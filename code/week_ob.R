@@ -1,2 +1,2 @@
-source("E:/Work_table/gitwutb/git_project/yck_price_ob/code/price_ob.R",echo=TRUE,encoding="utf-8")
-source("E:/Work_table/gitwutb/git_project/yck_price_ob/code/price_model.R",echo=TRUE,encoding="utf-8")
+source(paste0(gsub("\\/code","",tryCatch(dirname(rstudioapi::getActiveDocumentContext()$path),error=function(e){getwd()})),'/code/price_ob.R',sep=""),echo=TRUE,encoding="utf-8")
+source(paste0(gsub("\\/code","",tryCatch(dirname(rstudioapi::getActiveDocumentContext()$path),error=function(e){getwd()})),'/code/price_model.R',sep=""),echo=TRUE,encoding="utf-8")

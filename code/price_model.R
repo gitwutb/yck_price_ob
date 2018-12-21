@@ -14,7 +14,6 @@ library(parallel)
 library(rlist)
 ##########数据输入
 ###########加载自定义函数###########paste0(price_model_loc,"\\function")
-#price_model_loc<-gsub("\\/main","",dirname(rstudioapi::getActiveDocumentContext()$path))
 price_model_loc<-c("C:/Users/Administrator/Desktop/YCK_DC_SHARE/code_model_ml/model_rea")
 local_defin<-data.frame(user = 'root',host='192.168.0.111',password= '000000',dbname='yck-data-center',stringsAsFactors = F)
 source(paste0(price_model_loc,"\\function\\fun_model_price.R"),echo=FALSE,encoding="utf-8")
