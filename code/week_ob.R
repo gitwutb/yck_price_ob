@@ -1,0 +1,2 @@
+source("E:/Work_table/gitwutb/git_project/yck_price_ob/code/price_ob.R",echo=TRUE,encoding="utf-8")
+source("E:/Work_table/gitwutb/git_project/yck_price_ob/code/price_model.R",echo=TRUE,encoding="utf-8")
